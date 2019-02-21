@@ -14,3 +14,11 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/bienvenida/{nombre}/{apellido?}', function($nombre, $apellido=null){
+    //return $nombre . ' ' . $apellido;
+    //return view('paginas.bienvenida')->with(['nombre' => $nombre, 'apellido' => $apellido]);
+    //return view('paginas.bienvenida', compact('nombre', 'apellido'));
+  return view('paginas.bienvenida', compact('nombre', 'apellido'))->with([
+  'nombre_completo'=> $nombre . ' ' . $apellido]);
+});
