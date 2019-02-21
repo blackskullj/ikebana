@@ -1,15 +1,10 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>bienvenida</title>
-  </head>
-  <body>
-    <h1> Bienvenida </h1>
-    <p>
-      Hola {{$nombre}} {{$apellido}}
-      <br>
-      Hola {{$nombre_completo}}
-    </p>
-  </body>
-</html>
+@extends('layouts.app')
+
+@section('content')
+  <h1> Bienvenida </h1>
+  <p>
+    Hola {{$nombre}} {{$apellido}}
+    <br>
+    Hola {{$nombre_completo}}
+  </p>
+@endsection
