@@ -18,4 +18,8 @@ class PagesController extends Controller
       return view('paginas.bienvenida', compact('nombre', 'apellido'))->with([
       'nombre_completo'=> $nombre . ' ' . $apellido]);
     }
+
+    public function equipo(){
+      return view('paginas.equipo');
+    }
 }
