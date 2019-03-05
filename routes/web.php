@@ -26,3 +26,5 @@ Route::get('/equipo', 'PagesController@equipo')->name('equipo');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/docs', 'DocumentosController@index')->name('docs.index');

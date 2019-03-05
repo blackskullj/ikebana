@@ -96,6 +96,7 @@
                     <a href="contacto">Contact</a>
                     <a href="info">Info</a>
                     <a href="equipo">Team</a>
+                    <a href="docs">Docs</a>
                 </div>
             </div>
         </div>
