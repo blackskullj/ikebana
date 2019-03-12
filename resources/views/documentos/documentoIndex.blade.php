@@ -3,7 +3,7 @@
 @section('content')
   <div class="row">
     <div class="col-8">
-      <h1>Documentos</h1>
+      <h1>Documentos de {{session('apodo')}}</h1>
       <table class="table table-striped table-dark">
         <thead>
           <tr>

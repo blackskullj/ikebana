@@ -21,7 +21,6 @@ class CreaTableDocumentos extends Migration
           $table->string('envia');
           $table->string('no_oficio');
           $table->date('fecha_oficio');
-          $table->timestamps();
 
           //$table->foreign('user_id')->references('id')->on('users');
         });
